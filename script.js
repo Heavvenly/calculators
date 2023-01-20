@@ -70,6 +70,7 @@ function reset(){
   mean = 0;
   sd = 0;
   document.getElementById('curnum').innerHTML = "Type Number";
+  document.getElementById('sdtext').innerHTML = "";
 
 }
 
