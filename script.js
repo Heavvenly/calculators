@@ -15,13 +15,10 @@ function anum(choice) {
   value += curnum;
   document.getElementById('curnum').innerHTML = value;
 
-
-
-
 }
 
 function add() {
-  numlist.push(parseInt(value))
+  numlist.push(parseFloat(value))
   value = '';
 
   document.getElementById('curnum').innerHTML = "‎ ‎ ‎ ";
@@ -29,12 +26,11 @@ function add() {
 }
 
 function equals() {
-  numlist.push(parseInt(value));
+  numlist.push(parseFloat(value));
 
-  if(value!=undefined){
+  if (value != undefined) {
     document.getElementById('curnum').innerHTML = value;
-  }
-  else{
+  } else {
     document.getElementById('curnum').innerHTML = "‎ ‎ ";
   }
 
@@ -42,50 +38,44 @@ function equals() {
 
 
   for (let i = 0; i < numlist.length; i++) {
-      mean = mean + parseInt(numlist[i])
-    }
-    mean = parseFloat(mean / numlist.length)
+    mean = mean + parseFloat(numlist[i])
+  }
+  mean = parseFloat(mean / numlist.length)
 
-    //alert("Average: " + mean)
+  //alert("Average: " + mean)
 
   for (let i = 0; i < numlist.length; i++) {
-    sd += (Math.pow(Math.abs(numlist[i] - mean) , 2))
+    sd += (Math.pow(Math.abs(numlist[i] - mean), 2))
   }
 
-    sd /= numlist.length
-    sd = Math.sqrt(sd)
+  sd /= numlist.length
+  sd = Math.sqrt(sd)
 
   //alert("Standard Deviation: " + parseFloat(sd))
 
-  document.getElementById('curnum').innerHTML = "‎Average/Mean: "+mean;
+  document.getElementById('curnum').innerHTML = "‎Average/Mean: " + mean;
   document.getElementById('sdtext').innerHTML = "Standard Deviation: " + sd;
   document.getElementById('curtex').innerHTML = "Your Results:";
 
 }
 
-function reset(){
+function reset() {
   curnum = 0;
   value = '';
   numlist = [];
   mean = 0;
   sd = 0;
   document.getElementById('curnum').innerHTML = "Type Number";
-  document.getElementById('sdtext').innerHTML = "";
+  document.getElementById('sdtext').innerHTML = " ";
 
 }
 
-function seeset(){
-  alert("Your set currently has: "+numlist)
+function seeset() {
+  alert("Your set currently has: " + numlist)
 }
-
-
-
-
-
-
 
 
 function boranum() {
-  var borcurnum = parseInt(prompt("Please Enter a Number: "));
-  numlist.push(parseInt(borcurnum))
+  var borcurnum = parseFloat(prompt("Enter Number: "));
+  numlist.push(parseFloat(borcurnum))
 }
