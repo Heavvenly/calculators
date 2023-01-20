@@ -86,6 +86,6 @@ function seeset(){
 
 
 function boranum() {
-  var borcurnum = parseInt(prompt("enter number"));
+  var borcurnum = parseInt(prompt("Please Enter a Number: "));
   numlist.push(parseInt(borcurnum))
 }
