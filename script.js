@@ -85,6 +85,7 @@ function zscore(){
   }else{
     var znum = parseFloat(prompt("Enter Number:"))
     var zscore = (mean - znum)/sd
+    var zscore = zscore * -1
     alert("The ZScore for "+znum+" is "+zscore)
   }
 
