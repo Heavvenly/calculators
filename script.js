@@ -91,6 +91,6 @@ function zscore(){
 }
 
 function boranum() {
-  var borcurnum = parseFloat(prompt("Enter Number: "));
+  var borcurnum = parseFloat(prompt("Enter Number to be Added to Data Set: "));
   numlist.push(parseFloat(borcurnum))
 }
