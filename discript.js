@@ -48,6 +48,11 @@ function equals() {
   var y1 = numlist[1]
   var x2 = numlist[2]
   var y2 = numlist[3]
+  
+  if (value != '') {
+    if (curpoint <= 3){
+      numlist.push(parseFloat(value))
+    }
 
   var distance = Math.sqrt( Math.pow(x2 - x1,2) + Math.pow(y2-y1,2))
   var midpointx = (x1 + x2)/2
