@@ -9,7 +9,7 @@ var midpoint = 0;
 window.onload = function() {
   value = '';
   document.getElementById('curnum').innerHTML = "Type Number";
-  document.getElementById("zscore").style.display = "hidden";
+  
 
 }
 
