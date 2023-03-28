@@ -1,0 +1,153 @@
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2d3436;
+  background-image: linear-gradient(360deg, black 10%, #363538 94%);
+}
+/* #443973*/
+body {
+  font-family: 'Sora', sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+#black {
+  color: black;
+}
+
+#about {
+  font-size: 15px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 50px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.currentbox {
+  margin: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 5px 8px #21143d;
+  justify-content: center;
+}
+
+#curtex {
+  color: #2c2c30;
+  margin: 0px;
+  padding: 0px;
+}
+
+#curnum {
+  color: #2c2c30;
+  margin: 0px;
+  padding: 0px;
+}
+
+#sdtext {
+  color: #2c2c30;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  background-color: #351f59;
+  background-image: linear-gradient(360deg, #351f59 10%, #432870 94%);
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 140px;
+  margin-right: 90px;
+  box-shadow: 9px 5px 8px #21143d;
+  justify-content: center;
+}
+
+.main2 {
+  background-color: #351f59;
+  background-image: linear-gradient(360deg, #141138 10%, #2d257d 94%);
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 140px;
+  margin-right: 90px;
+  box-shadow: 9px 5px 8px #21143d;
+  justify-content: center;
+}
+
+.main3 {
+  background-color: #351f59;
+  background-image: linear-gradient(360deg, #0d4a73 10%, #146aa3 94%);
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-top: 140px;
+  margin-right: 90px;
+  box-shadow: 9px 5px 8px #0d4a73;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 40px;
+  float: left;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.topnav {
+  width: 65%;
+  margin-bottom: 9px;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  position: fixed;
+  overflow: hidden;
+}
+
+.topnav.sd {
+  background-image: linear-gradient(360deg, #351f59 10%, #290552 14%);
+}
+
+.topnav.di {
+  background-image: linear-gradient(360deg, #141138 10%, #2d257d 14%);
+}
+
+.topnav.al {
+  background-image: linear-gradient(360deg, #0d4a73 10%, #146aa3  14%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+button {
+  font-weight: bolder;
+  border-style: dotted;
+  border-color: #363640;
+  background-color: white;
+  text-decoration-color: #2c2c30;
+  margin: auto;
+  padding: 30px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
