@@ -4,6 +4,7 @@ var numlist = [];
 var curpoint = 0;
 var distance = 0;
 var midpoint = 0;
+// i love codingggg <3333
 
 window.onload = function() {
   value = '';
